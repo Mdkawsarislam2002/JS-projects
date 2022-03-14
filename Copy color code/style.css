@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+.btn-div h1{
+ margin-bottom: .5rem;
+}
+.btn-div{
+    display: grid;
+    place-content: center;
+    margin: auto;
+    height: 20rem;
+    width: 30rem;
+
+}
+.buttons{
+    display: inline-block;
+   padding: 1rem 2rem;
+    margin: 1rem auto;
+    transition: all 0.2s ease-in ;
+}
+.buttons:hover{
+    background: rgb(19, 18, 18);
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+#rgbColorsPlace{
+    padding: 1rem ;
+    width: 30vw;
+    background: white;
+}
+.clickBtn{
+    padding: 1rem ;   
+    background: white;
+    transition: all 0.2s ease-in ;
+}
+.clickBtn:hover{
+    background: rgb(19, 18, 18);
+    color: whitesmoke;
+}

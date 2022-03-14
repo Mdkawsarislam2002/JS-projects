@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.preloader-div {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.preloader-span {
+  position: relative;
+  top: 40%;
+  left: 40%;
+}
+
+.loaderSpan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
