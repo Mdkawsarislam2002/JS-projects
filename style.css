@@ -3,7 +3,8 @@
   font-size: 3rem;
 }
 .project-list {
-  color: navy;
+  color: teal;
+  font-weight: bold;
 }
 
 .projects {

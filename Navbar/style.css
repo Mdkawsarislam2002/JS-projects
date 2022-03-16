@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: slategray;
+  transition: all 0.2s ease;
+}
+#nav-list {
+  display: inline;
+}
+.menu {
+  display: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 2rem;
+}
+
+.logo svg {
+  width: 4rem;
+}
+.patients-items ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.patients-items ul li {
+  list-style: none;
+  padding-top: 1.5rem;
+}
+.items {
+  margin: 1rem;
+  text-decoration: none;
+  list-style: none;
+  color: mediumturquoise;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.menu svg {
+  width: 2rem;
+  float: right;
+  clear: both;
+  /* cursor: pointer; */
+}
+/*  responsive media  */
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem;
+  }
+
+  /* .wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: slategray;
+  } */
+  .patients-items ul {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  .patients-items {
+    grid-column: 1 / span 3;
+    display: none;
+  }
+  /*   .logo {
+    grid-column: 1 / span 2; 
+    remove:()   grid-column: 1 / span 2;
+}
+ */
+  .menu svg {
+    width: 2rem;
+    float: right;
+    clear: both;
+    cursor: pointer;
+  }
+  .menu {
+    display: block;
+  }
+}

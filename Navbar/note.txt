@@ -1,0 +1,2 @@
+ grid-column: 1 / span 2; 
+display: none; 
