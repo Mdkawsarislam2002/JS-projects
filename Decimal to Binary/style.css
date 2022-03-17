@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background: #001219;
+  width: 100vw;
+  height: 100vh;
+}
+
+.parent {
+  background: #dee2e6;
+  margin: auto;
+  border: 2px solid yellowgreen;
+  width: 40rem;
+  height: 30rem;
+}
+.heading {
+  color: #24272b;
+  text-align: center;
+}
+
+#output,
+#input {
+  margin: 2rem 5rem;
+  padding: 1rem 2rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  margin: 1rem 5rem;
+  background: #3d405b;
+  color: whitesmoke;
+  font-weight: bolder;
+}

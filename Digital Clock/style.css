@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #1d3557;
+  overflow: hidden;
+}
+.container {
+  margin: 5rem;
+  width: 70vw;
+  height: 70vh;
+  background: #22223b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.wrapper {
+  width: 80%;
+  height: 80%;
+  background: #6096ba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.wrapper span {
+  margin: 0.2rem;
+}
