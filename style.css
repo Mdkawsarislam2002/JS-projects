@@ -1,12 +1,31 @@
+body {
+  background: #0c7489;
+  color: #011627;
+}
 #title {
   text-align: center;
   font-size: 3rem;
 }
 .project-list {
-  color: teal;
+  color: #f7f0f0;
   font-weight: bold;
 }
 
 .projects {
   font-size: 1.2rem;
+}
+.projects > * {
+  font-size: 1.5rem;
+}
+.discriptions {
+  color: #ffd100;
+}
+#dist {
+  font-size: 1.5rem;
+}
+#thanks {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #e01a4f;
+  font-weight: bolder;
 }
