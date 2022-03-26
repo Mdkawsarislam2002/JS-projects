@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: teal;
+}
+#heading {
+  margin: 2rem auto;
+}
+#images {
+  width: 100%;
+}
+#imgBox {
+  border: 2px solid tomato;
+  width: 40rem;
+  height: 30rem;
+  display: flex;
+}

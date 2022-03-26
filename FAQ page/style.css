@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#title {
+  color: midnightblue;
+}
+.wrapper {
+  margin: 2rem auto;
+  width: 70vw;
+}
+
+.questions {
+  background: #023047;
+  color: whitesmoke;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.answer {
+  background: #455e89;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: all 0.5s ease-in;
+  height: 0rem;
+  overflow: hidden;
+  display: flex;
+}
+.active {
+  height: 5rem;
+}
+.answer > p {
+  padding: 1rem;
+}
+.questions > p {
+  text-align: left;
+}
+.icon svg {
+  color: tomato;
+  width: 1.5rem;
+  height: 1.7rem;
+}
