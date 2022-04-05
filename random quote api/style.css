@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #03396c;
+}
+#wrapper {
+  max-width: 30rem;
+  height: 25rem;
+  border: 2px solid turquoise;
+  margin: 5rem auto;
+  background: whitesmoke;
+  border-radius: 10px;
+  position: relative;
+}
+#quoteBox {
+  padding: 1.5rem;
+}
+#quoteText {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: rgb(43, 34, 34);
+  font-weight: bold;
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+}
+.quoteWrapper {
+  /* width: 2rem; */
+  font-size: 2rem;
+  display: inline-block;
+}
+
+#author {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: rgb(9, 52, 83);
+  font-weight: bolder;
+  text-align: right;
+  font-family: "Lobster";
+  position: absolute;
+  bottom: 40%;
+  right: 0;
+}
+#bottomAreal {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
+/* #bottomAreal button {
+  padding: 0.3rem 0.5rem;
+  margin: 0rem 1rem;
+} */
+
+#newQuote {
+  color: #dfe3ee;
+  background: #141d26;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in;
+  margin-left: 1rem;
+}
+#newQuote:hover {
+  color: #141d26;
+  background: #dfe3ee;
+  outline: none;
+}
+#copy {
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in;
+  border-radius: 0.5rem;
+  outline: none;
+}
+#copy:hover {
+  color: #dfe3ee;
+  background: #141d26;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Data List app</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/368776010f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="heading"><h1>USER DATA LIST APP</h1></div>
+    </div>
+    <div id="inputs">
+      <input type="text" placeholder="Enter Your Name" name="name" id="name" />
+      <input
+        type="email"
+        placeholder="Enter Your E-mail"
+        name="email"
+        id="email"
+      />
+      <input
+        type="number"
+        placeholder="Enter Your  Contact Number"
+        name="contactNumber"
+        id="contactNumber"
+      />
+      <button id="addInput">
+        Add User <span><i class="fa-solid fa-angles-right"></i></span>
+      </button>
+      <div id="wrapper">
+        <div class="user-heading">
+          <ul id="heading-parents">
+            <li class="heading-list">
+              Serial Number
+              <span><i class="fa-solid fa-arrow-down-1-9"></i></span>
+            </li>
+            <li class="heading-list">
+              Name <span><i class="fa-solid fa-signature"></i></span>
+            </li>
+            <li class="heading-list">
+              Email <span><i class="fa-solid fa-envelope"></i></span>
+            </li>
+            <li class="heading-list">
+              Contact Number
+              <span><i class="fa-solid fa-address-card"></i></span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ========= all user data table ============ -->
+
+        <div id="user">
+          <div class="user-items">
+            <ul class="data-table">
+              <li>1</li>
+              <li>Md Kawsar Islam Yeasin</li>
+              <li>mdkawsarislam2002@gmail.com</li>
+              <li>0163***7965</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
